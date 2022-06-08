@@ -1,0 +1,44 @@
+.card-container {
+  width: 180px;
+  height: 280px;
+  border: 1px solid #000;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #9d9e8b;
+}
+
+.card-container > div {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: space-around;
+}
+
+.card-container > div > p {
+  margin-top: 45px;
+  font-size: medium;
+}
+
+.card-container > div > img {
+  width: 80px;
+}
+
+.card-container > h3 {
+  font-size: larger;
+  height: 45px;
+  margin-top: 10px;
+  margin-bottom: 9px;
+}
+
+.card-container > p {
+  font-size: medium;
+  height: 75px;
+  margin-bottom: 5px;
+}
+
+.card-container > button {
+  padding: 3px;
+  border-radius: 5px;
+}

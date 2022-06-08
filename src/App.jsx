@@ -1,13 +1,17 @@
 import './App.css';
-import Card from './componentes/card';
+import Header from './componentes/Header';
+import Home from './componentes/Home';
+import Footer from './componentes/Footer';
+import { Toaster } from 'react-hot-toast';
 
 const App = () => {
   return (
-    <div>
-      <Card nome="Blue" idade="1"/>
-      <Card nome="Giovanne" idade="20"/>
-      <h1>oi!</h1>
-    </div>
+    <>
+      <Toaster />
+      <Header />
+      <Home />
+      <Footer />
+    </>
   );
 }
 
