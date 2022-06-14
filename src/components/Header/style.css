@@ -17,11 +17,24 @@
 
 }
 
-.header-container > div > img {
+.headerTitle-container > img {
   height: 10vh;
 }
 
-.header-container > img {
+.headerOptions-container {
+  display: flex;
+}
+
+.headerOptions-container > img {
+  margin-left: 1.5vw;
+}
+
+.headerOptions-newPaletteIcon {
+  height: 4.5vh;
+  cursor: pointer;
+}
+
+.headerOptions-checkoutIcon {
   height: 6vh;
-  margin-left: 35vw;
+  cursor: pointer;
 }

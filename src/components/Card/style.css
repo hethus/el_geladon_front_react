@@ -1,6 +1,6 @@
 .card-container {
   width: 180px;
-  height: 280px;
+  height: 300px;
   border: 1px solid #000;
   padding: 8px;
   display: flex;
@@ -9,19 +9,19 @@
   background-color: #9d9e8b;
 }
 
-.card-container > div {
+.card-header {
   display: flex;
   width: 100%;
   height: 100px;
   justify-content: space-around;
 }
 
-.card-container > div > p {
+.card-header > p {
   margin-top: 45px;
   font-size: medium;
 }
 
-.card-container > div > img {
+.card-header > img {
   width: 80px;
 }
 
@@ -41,4 +41,24 @@
 .card-container > button {
   padding: 3px;
   border-radius: 5px;
+}
+
+.card-body {
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 9px;
+}
+
+.card-body > img{
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.card-body > img:hover{
+  background-color: #2f93aa;
+  border-radius: 8px;
 }

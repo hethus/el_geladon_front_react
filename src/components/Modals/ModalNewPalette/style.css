@@ -1,0 +1,13 @@
+.modal-container > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+  padding-inline: 0.2rem;
+}
+
+
+.modal-container > input {
+  margin-bottom: 0.3rem;
+  border-radius: 5px;
+
+}
